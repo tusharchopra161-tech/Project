@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Gilroy"
+}
+html,body{
+    height:100%;
+    width: 100%;
+}
+#main{
+    height:100%;
+    width: 100%;
+    background-color: #9DBD9C;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+#pt{
+    height:95%;
+    width: 97%;
+    background-color:white;
+    border-radius: 15px;
+    overflow:hidden;
+}
+#ful{
+    height:100%;
+    width: 100%;
+    font-size:2rem;
+    padding:10%;
+    /* display:none; */
+    font-weight: 800;
+}
+#ful #name{
+    height:5%;
+     width: 14rem;
+      font-size:60%;
+      font-weight: 400;
+}
+.btn{
+    height:3.5rem;
+    width:14rem;
+    font-size:1.5rem;
+    cursor:pointer;
+    border-radius: 10px;
+    border:none;
+    margin-top:7rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    color:white;
+    background-color:#9DBD9C ;
+}
+#pttop{
+    height:50px;
+    width:100%;
+    /* margin: 0 20%; */
+    background-color:#4A6D48;
+    gap:0px;
+    display:flex;
+    color:white;
+    align-items:center;
+    padding: 0 1rem ;
+    justify-content: space-around;
+}
+.box{
+    display:flex;
+    align-items:center;
+    font-size: 1.2rem;
+    gap:7px;
+    /* margin: 0 14rem; */
+}
+.op{
+    margin:5px;
+     padding:5px;
+     font-weight: 700;
+    border-radius: 5px;
+    color:black;
+    background-color: #fff;
+}
+#ptbtm{
+    flex-wrap: wrap;
+    width:100%;
+    height: calc( 100% - 100px );
+    background-color: white;
+    padding: 10px;
+    gap:5px;
+    display:flex;
+
+}
+.bubl{
+    height: 25px;
+    /* margin: 10px; */
+    width: 25px;
+    border-radius: 50%;
+    background-color:#4A6D48;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.bubl:hover{
+    background-color: #324e30;
+   cursor: pointer;
+}
+#restart{
+     height:5rem;
+     width: 24rem;
+     border-radius: 10px;
+    border:none;
+    margin-top:2rem;
+    font-size: 3rem;
+    font-weight: 600;
+    color:white;
+    background-color:#9DBD9C ;
+}
+.result{
+    height: 90%;
+    margin-right: 1.2rem;
+    width:100%;
+    text-align:center;
+    background-color:#4A6D48;
+    color:white;
+    padding:40px;
+    border-radius:10px;
+}
+
+.result h2{
+    font-size:2rem;
+    margin-bottom:10px;
+}
+
+.result h3{
+    margin:10px 0;
+    font-size:1.5rem;
+}
+
+.result button{
+    height: 3rem;
+    margin-top:20px;
+    font-size: 1.3rem;
+}
